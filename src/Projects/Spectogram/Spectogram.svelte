@@ -55,6 +55,7 @@
         tempCanvas.width = canvas.width;
         tempCanvas.height = canvas.height;
     });
+    //update    
 
     function drawSpectrogram (array) {
                 // copy the current canvas onto the temp canvas
