@@ -5,8 +5,9 @@
     import ShaderTutorial from "./Projects/ShaderTutorial/ShaderTutorial.svelte";
     import BasicThree from "./Projects/BasicThree/BasicThree.svelte";
     import SpectoFinal from "./Projects/SpectoFinal/SpectoFinal.svelte";
+    import Tuner from "./Projects/Tuner/Tuner.svelte";
 
-  let currentPage = "SpectoFinal";
+  let currentPage = "Tuner";
 
 </script>
 <header>
@@ -17,6 +18,8 @@
     <button on:click={() => currentPage = "SpectoFinal"}>SpectoFinal</button>
    <button on:click={() => currentPage = "ShaderTutorial"}>ShaderTutorial</button>
    <button on:click={() => currentPage = "BasicThree"}>BasicThree</button>
+   <button on:click={() => currentPage = "Tuner"}>Tuner</button>
+
 
 
   </nav>
@@ -24,6 +27,8 @@
 <main>
   {#if currentPage === "SpectoTutorial"}
   <SpectoTutorial/>
+  {:else if currentPage === "Tuner"}
+  <Tuner/>
   {:else if currentPage === "ShaderTutorial"}
   <ShaderTutorial/>
   {:else if currentPage === "BasicThree"}

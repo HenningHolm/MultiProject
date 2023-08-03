@@ -24,7 +24,10 @@
     "@types/three": "^0.154.0",
     "chroma-js": "^2.4.2",
     "dat.gui": "^0.7.9",
+    "pitchfinder": "^2.3.2",
     "three": "^0.155.0",
-    "three-addons": "^1.2.0"
+    "three-addons": "^1.2.0",
+    "tonal": "^5.0.0",
+    "yinjs": "^0.1.0"
   }
 }

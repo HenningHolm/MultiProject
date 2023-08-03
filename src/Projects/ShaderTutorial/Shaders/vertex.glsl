@@ -4,16 +4,15 @@ varying vec3 vNormal;
 varying vec2 vUv;
 
 void main() {
-	vPosition = position;
-	vNormal = normal;
-	vUv = uv;
+    vPosition = position;
+    vNormal = normal;
+    vUv = uv;
 
-	vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-	vec4 projectedPosition = projectionMatrix * mvPosition;
+    vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);
+    vec4 projectedPosition = projectionMatrix * mvPosition;
 
-	gl_Position = projectedPosition;
+    // Pass time as a varying variable to the fragment shader
+    vUv.y = uTime;
+
+    gl_Position = projectedPosition;
 }
-
-	// void main(){
-    //         gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0);
-	// }

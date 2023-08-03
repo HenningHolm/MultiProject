@@ -18,6 +18,7 @@
         z: 0,
         samples: 1,
     };
+    
     let tick = 0;
     let freqency_samples = 512;
     let time_sample = 200;
@@ -38,10 +39,13 @@
     let xhalfSize = xSize / 2;
     let yhalfSize = ySize / 2;
 
+    //new (window.AudioContext || window.webkitAudioContext)();
     let audioCtx = new AudioContext();
     let analyser = audioCtx.createAnalyser();
     analyser.fftSize = freqency_samples * 8;
     analyser.smoothingTimeConstant = 0.5;
+    analyser.minDecibels = -60; //default : -100
+    analyser.maxDecibels = -25; //default : -30
     let source;
 
     // onMount(() => {
@@ -312,7 +316,7 @@
 
 <button on:click={init}>Start</button>
 <button on:click={()=>{running=false;}}>Stop</button>
-<h4>{header}</h4>ß
+<h4>{header}</h4>
 <div bind:this={container} id="Spectrogram" />
 
 <style>

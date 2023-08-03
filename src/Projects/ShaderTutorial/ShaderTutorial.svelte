@@ -7,6 +7,7 @@
 
 
     let camera, renderer;
+    let material, startTime;
     let light, ambientLight;
     let scene;
     let container: HTMLDivElement;
@@ -54,11 +55,16 @@
         const geometry = new THREE.IcosahedronGeometry(1, 5);
         // const material = new THREE.ShaderMaterial(myShader);
         const pGeometry = new THREE.PlaneGeometry( 2, 2, 10, 10 );
-        const material = new THREE.ShaderMaterial({
+        material = new THREE.ShaderMaterial({
             vertexShader: vertexShader,
             fragmentShader: fragmentShader,
             // wireframe: true,
         });
+        material.uniforms.uTime = { value: 0.0 };
+        startTime = Date.now();
+
+
+
         const material2 = new THREE.MeshPhongMaterial({color: 0x00ff00});
         const ico = new THREE.Mesh(pGeometry, material);
         scene.add(ico);
@@ -71,8 +77,10 @@
         renderer.render(scene, camera);
     }
 
-    function animate() {
+    function animate(currentTime) {
         requestAnimationFrame( animate );
+        // const currentTime = Date.now() - startTime;
+        material.uniforms.uTime.value = currentTime * 0.001;
         render();
     }
 
