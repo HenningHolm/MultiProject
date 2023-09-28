@@ -1,0 +1,719 @@
+{ 
+    "dictonary": [{
+    "id": 1,
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "scale": "G#",
+    "embedded": "spotify:track:0tgVpDi06FyKpA1z0VMD4v"
+},
+{
+    "id": 2,
+    "title": "Castle on the Hill",
+    "artist": "Ed Sheeran",
+    "scale": "D",
+    "embedded": "spotify:track:6PCUP3dWmTjcTtXY02oFdT"
+},
+{
+    "id": 3,
+    "title": "Shivers",
+    "artist": "Ed Sheeran",
+    "scale": "D",
+    "embedded": "spotify:track:50nfwKoDiSYg8zOCREWAm5"
+   
+},
+{
+    "id": 4,
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "scale":"D",
+    "embedded": "spotify:track:7qiZfU4dY1lWllzX7mPBI3"
+   
+},
+{
+    "id": 5,
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "scale": "D",
+    "embedded": "spotify:track:34gCuhDGsG4bRPIf9bb02f"
+   
+},
+{
+    "id": 6,
+    "title": "Photograph",
+    "artist": "Ed Sheeran",
+    "scale": "D",
+    "embedded": "spotify:track:1HNkqx9Ahdgi1Ixy2xkKkL"
+   
+},
+{
+    "id": 7,
+    "title": "Overpass Graffiti",
+    "artist": "Ed Sheeran",
+    "scale": "D",
+    "embedded": "spotify:track:4btFHqumCO31GksfuBLLv3"
+},
+{
+    "id": 8,
+    "title": "Eyes Closed",
+    "artist": "Ed Sheeran",
+    "scale": "D",
+    "embedded": "spotify:track:3p7XQpdt8Dr6oMXSvRZ9bg"
+},
+{
+    "id": 9,
+    "title": "Beautiful People",
+    "artist": "Ed Sheeran",
+    "scale": "D",
+    "embedded": "spotify:track:4evmHXcjt3bTUHD1cvny97"
+   
+},
+{
+    "id": 10,
+    "title": "I don't care",
+    "artist": "Ed Sheeran & Justin Bieber",
+    "scale": "D",
+    "embedded": "spotify:track:3HVWdVOQ0ZA45FuZGSfvns"
+   
+},
+{
+    "id": 11,
+    "title": "Easy on Me",
+    "artist": "Adele",
+    "scale": "D",
+    "embedded": "spotify:track:0gplL1WMoJ6iYaPgMCL0gX"
+},
+{
+    "id": 12,
+    "title": "Someone Like You",
+    "artist": "Adele",
+    "scale": "D",
+    "embedded": "spotify:track:3bNv3VuUOKgrf5hu3YcuRo"
+},{
+    "id": 13,
+    "title": "Hello",
+    "artist": "Adele",
+    "scale": "D",
+    "embedded": "spotify:track:1Yk0cQdMLx5RzzFTYwmuld"
+},
+{
+    "id": 14,
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "scale": "D",
+    "embedded": "spotify:track:4OSBTYWVwsQhGLF9NHvIbR"
+},
+{
+    "id": 15,
+    "title": "Set Fire to the Rain",
+    "artist": "Adele",
+    "scale": "D",
+    "embedded": "spotify:track:3di5hcvxxciiqwMH1jarhY"
+   
+},
+{
+    "id": 16,
+    "title": "When We Were Young",
+    "artist": "Adele",
+    "scale": "D",
+    "embedded": "spotify:track:6O5TrlFWTYvznd9fMC0VvU"
+   
+},
+{
+    "id": 17,
+    "title": "Someone You Loved",
+    "artist": "Lewis Capaldi",
+    "scale": "D",
+    "embedded": "spotify:track:7qEHsqek33rTcFNT9PFqLf"
+   
+},
+{
+    "id": 18,
+    "title": "Before You Go",
+    "artist": "Lewis Capaldi",
+    "scale": "D",
+    "embedded": "spotify:track:2gMXnyrvIjhVBUZwvLZDMP"
+   
+},
+{
+    "id": 19,
+    "title": "Lewis Capaldi",
+    "artist": "Hold Me While You Wait",
+    "scale": "G#",
+    "embedded": "spotify:track:60iSKGrGazRzICtMjADNSM"
+},
+{
+    "id": 20,
+    "title": "Lewis Capaldi",
+    "artist": "Bruises",
+    "scale": "D",
+    "embedded": "spotify:track:4Of7rzpRpV1mWRbhp5rAqG" 
+},
+{
+    "id": 21,
+    "title": "Blinding Lights",
+    "artist": "Weeknd",
+    "scale": "D#",
+    "embedded": "spotify:track:0VjIjW4GlUZAMYd2vXMi3b"
+},
+{
+    "id": 22,
+    "title": "Save Your Tears",
+    "artist": "Weeknd",
+    "scale": "C",
+    "embedded": "spotify:track:5QO79kh1waicV47BqGRL3g"
+}, 
+{
+    "id": 23,
+    "title": "Creepin'",
+    "artist": "Weeknd", 
+    "scale": "F",
+    "embedded": "spotify:track:2dHHgzDwk4BJdRwy9uXhTO" 
+},
+{
+    "id": 24,
+    "title": "Just Give Me a Reason",
+    "artist": "Pink",
+    "scale": "D",
+    "embedded": "spotify:track:1mKXFLRA179hdOWQBwUk9e" 
+},
+{
+    "id": 25,
+    "title": "Rockstar",
+    "artist": "Post Malone",
+    "scale": "D",
+    "embedded": "spotify:track:0e7ipj03S05BNilyu5bRzt"
+},
+{
+    "id": 26,
+    "title": "Secrets",
+    "artist": "One Republic",
+    "scale": "D",
+    "embedded": "spotify:track:1NhPKVLsHhFUHIOZ32QnS2"
+},
+{
+    "id": 27,
+    "title": "Apologize",
+    "artist": "One Republic",
+    "scale": "D",
+    "embedded": "spotify:track:3UhXPxLDFKCj1ZO6mmtV0a"
+},
+{
+    "id": 28,
+    "title": "Memories",
+    "artist": "Maroon 5",
+    "scale": "D",
+    "embedded": "spotify:track:4cktbXiXOapiLBMprHFErI"
+},
+{
+    "id": 29,
+    "title": "Sugar",
+    "artist": "Maroon 5",
+    "scale": "D",
+    "embedded": "spotify:track:2iuZJX9X9P0GKaE93xcPjk"
+},
+{
+    "id": 30,
+    "title": "Bruno Mars",
+    "artist": "Just the Way You Are",
+    "scale": "D",
+    "embedded": "spotify:track:47Slg6LuqLaX0VodpSCvPt"
+},
+{
+    "id": 31,
+    "title": "Demons",
+    "artist": "Imagine Dragons",
+    "scale": "D",
+    "embedded": "spotify:track:2Oehrcv4Kov0SuIgWyQY9e"
+},
+{
+    "id": 32,
+    "title": "Top of the World",
+    "artist": "Imagine Dragons",
+    "scale": "D",
+    "embedded": "spotify:track:213x4gsFDm04hSqIUkg88w"
+},
+{
+    "id": 33,
+    "title": "Stronger",
+    "artist": "Kelly Clarkson",
+    "scale": "D",
+    "embedded": "spotify:track:1nInOsHbtotAmEOQhtvnzP"
+},
+{
+    "id": 34,
+    "title": "Bailando",
+    "artist": "Enrique Iglesias",
+    "scale": "D",
+    "embedded": "spotify:track:5M830cD7MNeiiwIGHzH9TV"
+},
+{
+    "id": 35,
+    "title": "Rude",
+    "artist": "Magic!",
+    "scale": "D",
+    "embedded": "spotify:track:6RtPijgfPKROxEzTHNRiDp"
+},
+{
+    "id": 35,
+    "title": "James Arthur",
+    "artist": "Say You Won't Let Go",
+    "scale": "D",
+    "embedded": "spotify:track:5uCax9HTNlzGybIStD3vDh"
+},
+{
+    "id": 36,
+    "title": "This is Me",
+    "artist": "The Greatest Showman",
+    "scale": "D",
+    "embedded": "spotify:track:45aBsnKRWUzhwbcqOJLwfe"
+},
+{
+    "id": 37,
+    "title": "Starlight",
+    "artist": "Muse",
+    "scale": "D",
+    "embedded": "spotify:track:3skn2lauGk7Dx6bVIt5DVj"
+},
+{
+    "id": 38,
+    "title": "Ocean Drive",
+    "artist": "Duke Dumont",
+    "scale": "D",
+    "embedded": "spotify:track:6eVwaToHDpGJGlLdeu5fVB"
+},
+{
+    "id": 39,
+    "title": "Don't You Worry",
+    "artist": "Black Eyed Peas & Shakira",
+    "scale": "D",
+    "embedded": "spotify:track:0YJW8OXw8G1xDfkzaID3vv"
+},
+{
+    "id": 40,
+    "title": "Faded",
+    "artist": "Alan Walker",
+    "scale": "D",
+    "embedded": "spotify:track:698ItKASDavgwZ3WjaWjtz"
+},
+{
+    "id": 41,
+    "title": "Alive",
+    "artist": "Celine Dion",
+    "scale": "D",
+    "embedded": "spotify:track:2FTZeRHQ4gRPViPMpWL9uX"
+},
+{
+    "id": 42,
+    "title": "Bleeding Love",
+    "artist": "Leona Lewis",
+    "scale": "D",
+    "embedded": "spotify:track:7wZUrN8oemZfsEd1CGkbXE"
+},
+{
+    "id": 43,
+    "title": "A Thousand Years",
+    "artist": "Christina Perri",
+    "scale": "D",
+    "embedded": "spotify:track:6z5Yh7kOKeLjqIsNdokIpU"
+},
+{
+    "id": 44,
+    "title": "Try",
+    "artist": "P!nk",
+    "scale": "D",
+    "embedded": "spotify:track:1jF7IL57ayN4Ity3jQqGu0"
+},
+{
+    "id": 45,
+    "title": "1973",
+    "artist": "Somebody Else",
+    "scale": "D",
+    "embedded": "spotify:track:4m0q0xQ2BNl9SCAGKyfiGZ"
+},
+{
+    "id": 46,
+    "title": "Happier",
+    "artist": "Bastille",
+    "scale": "D",
+    "embedded": "spotify:track:7BqHUALzNBTanL6OvsqmC1"
+},
+{
+    "id": 47,
+    "title": "Only Love Can Hurt Like This",
+    "artist": "Paloma Faith",
+    "scale": "D",
+    "embedded": "spotify:track:62ke5zFUJN6RvtXZgVH0F8"
+},
+{
+    "id": 48,
+    "title": "Reggaeton Lento",
+    "artist": "CNCO & Little Mix",
+    "scale": "D",
+    "embedded": "spotify:track:3AEZUABDXNtecAOSC1qTfo"
+},
+{
+    "id": 49,
+    "title": "Rise",
+    "artist": "Andrea Day",
+    "scale": "D",
+    "embedded": "spotify:track:0tV8pOpiNsKqUys0ilUcXz"
+},
+{
+    "id": 50,
+    "title": "You're Beautiful",
+    "artist": "James Blunt",
+    "scale": "D",
+    "embedded": "spotify:track:0vg4WnUWvze6pBOJDTq99k"  
+},
+{
+    "id": 51,
+    "title": "Enya",
+    "artist": "May It Be",
+    "scale": "D",
+    "embedded": "spotify:track:7LAJWSKK8JMIZAcblgUMS6"
+},
+{
+    "id": 52,
+    "title": "My True Name",
+    "artist": "Bloc Party",
+    "scale": "D",
+    "embedded": "spotify:track:65PfC4aMBZsuxTQ2ezkxLV"
+},
+{
+    "id": 53,
+    "title": "Nightcall",
+    "artist": "Kavincky",
+    "scale": "D",
+    "embedded": "spotify:track:0U0ldCRmgCqhVvD6ksG63j" 
+},
+{
+    "id": 54,
+    "title": "Rewrite the Stars",
+    "artist": "Zac Efron & Zendaya",
+    "scale": "D",
+    "embedded": "spotify:track:65fpYBrI8o2cfrwf2US4gq"
+},
+{
+    "id": 55,
+    "title": "911",
+    "artist": "Wyclef Jean & Mary J Blige",
+    "scale": "D",
+    "embedded": "spotify:track:64UIWRELT2orc828LtWAzJ" 
+},
+{
+    "id": 56,
+    "title": "See Beneath Your Beautiful",
+    "artist": "Labrinth & Emeli Sande",
+    "scale": "D",
+    "embedded": "spotify:track:2EcsgXlxz99UMDSPg5T8RF"
+},
+{
+    "id": 57,
+    "title": "Halo",
+    "artist": "Beyonce",
+    "scale": "D",
+    "embedded": "spotify:track:4JehYebiI9JE8sR8MisGVb"
+},
+{
+    "id": 58,
+    "title": "Dancing on My Own",
+    "artist": "Calum Scott",
+    "scale": "D",
+    "embedded": "spotify:track:2BOqDYLOJBiMOXShCV1neZ" 
+},
+{
+    "id": 59,
+    "title": "Stay",
+    "artist": "Justin Bieber",
+    "scale": "D",
+    "embedded": "spotify:track:567e29TDzLwZwfDuEpGTwo"
+},
+{
+    "id": 60,
+    "title": "Roar",
+    "artist": "Katy Perry",
+    "scale": "D",
+    "embedded": "spotify:track:27tNWlhdAryQY04Gb2ZhUI" 
+},
+{
+    "id": 61,
+    "title": "Stay",
+    "artist": "Rihanna",
+    "scale": "D",
+    "embedded": "spotify:track:4zzzZ1UNfr75ASG1lUE9L1"
+},
+{
+    "id": 62,
+    "title": "Drivers License",
+    "artist": "Olivia Rodrigo",
+    "scale": "D",
+    "embedded": "spotify:track:5wANPM4fQCJwkGd4rN57mH"
+},
+{
+    "id": 63,
+    "title": "Say My Name",
+    "artist": "Bruises",
+    "scale": "D",
+    "embedded": "spotify:track:4wqIXeDppYSMXaWsnTzpzT"
+},
+{
+    "id": 64,
+    "title": "Sweet but Psycho",
+    "artist": "Ava Max",
+    "scale": "D",
+    "embedded": "spotify:track:7DnAm9FOTWE3cUvso43HhI"
+},
+{
+    "id": 65,
+    "title": "Summer of 69",
+    "artist": "Bruises",
+    "scale": "D",
+    "embedded": "spotify:track:0GONea6G2XdnHWjNZd6zt3"
+},
+{
+    "id": 66,
+    "title": "Waves",
+    "artist": "Mr Probz & Robin Schulz",
+    "scale": "D",
+    "embedded": "spotify:track:1HFfMOxCAT4GAwaPfCdmUs" 
+},
+{
+    "id": 67,
+    "title": "Humans",
+    "artist": "The Killers",
+    "scale": "D",
+    "embedded": "spotify:track:1sTsuZTdANkiFd7T34H3nb"
+},
+{
+    "id": 68,
+    "title": "When We Were Young",
+    "artist": "The Killers",
+    "scale": "D",
+    "embedded": "spotify:track:70wYA8oYHoMzhRRkARoMhU"
+},
+{
+    "id": 69,
+    "title": "Miss Atomic Bomb",
+    "artist": "The Killers",
+    "scale": "D",
+    "embedded": "spotify:track:1XsS266JiQtoqqLdlgD17V"
+},
+{
+    "id": 70,
+    "title": "Something Just Like This",
+    "artist": "The Chainsmokers & Coldplay",
+    "scale": "D",
+    "embedded": "spotify:track:6RUKPb4LETWmmr3iAEQktW"  
+},
+{
+    "id": 71,
+    "title": "Sky Full of Stars",
+    "artist": "Coldplay",
+    "scale": "D",
+    "embedded": "spotify:track:0FDzzruyVECATHXKHFs9eJ"
+},
+{
+    "id": 72,
+    "title": "My Universe",
+    "artist": "Coldplay & BTS",
+    "scale": "D",
+    "embedded": "spotify:track:46HNZY1i7O6jwTA7Slo2PI" 
+},
+{
+    "id": 73,
+    "title": "The Scientist",
+    "artist": "Coldplay",
+    "scale": "D",
+    "embedded": "spotify:track:75JFxkI2RXiU7L9VXzMkle"
+},
+{
+    "id": 74,
+    "title": "With or Without You",
+    "artist": "U2",
+    "scale": "D",
+    "embedded": "spotify:track:4N0fzRX3T7QkOecp3pkWpp"  
+},
+{
+    "id": 75,
+    "title": "One",
+    "artist": "U2",
+    "scale": "D",
+    "embedded": "spotify:track:1cGCRhm8qBBna9Qf1lANNv" 
+},
+{
+    "id": 76,
+    "title": "Streets of Philadelphia",
+    "artist": "Bruce Springsteen",
+    "scale": "D",
+    "embedded": "spotify:track:6WgBIPHwkQhCqMNnR5hQCN" 
+},
+{
+    "id": 77,
+    "title": "Flowers",
+    "artist": "Miley Cyrus",
+    "scale": "D",
+    "embedded": "spotify:track:7FwBtcecmlpc1sLySPXeGE" 
+},
+{
+    "id": 78,
+    "title": "Wrecking Ball",
+    "artist": "Miley Cyrus",
+    "scale": "D",
+    "embedded": "spotify:track:2vwlzO0Qp8kfEtzTsCXfyE"
+},
+{
+    "id": 79,
+    "title": "More Than A Woman",
+    "artist": "Bee Gees",
+    "scale": "D",
+    "embedded": "spotify:track:0L3XCv9i9IHs8cJEVhsJ3J" 
+},
+{
+    "id": 80,
+    "title": "You Win Again",
+    "artist": "Bee Gees",
+    "scale": "D",
+    "embedded": "spotify:track:3izYjVWSDX0HWkImBqYKiv"
+},
+{
+    "id": 81,
+    "title": "True Colors",
+    "artist": "Cyndi Lauper",
+    "scale": "D",
+    "embedded": "spotify:track:2A6yzRGMgSQCUapR2ptm6A"
+},
+{
+    "id": 82,
+    "title": "Eva Cassidy",
+    "artist": "Time After Time",
+    "scale": "D",
+    "embedded": "spotify:track:7ExSGiqt0W5xu3XoAwjnDm"   
+},
+{
+    "id": 83,
+    "title": "Fields of Gold",
+    "artist": "Sting",
+    "scale": "D",
+    "embedded": "spotify:track:0I1DJdLt9BKOb7GWmWxCjo"
+},
+{
+    "id": 84,
+    "title": "Forever Young",
+    "artist": "Alphaville",
+    "scale": "D",
+    "embedded": "spotify:track:4S1VYqwfkLit9mKVY3MXoo" 
+},
+{
+    "id": 85,
+    "title": "Baby Can I Hold You",
+    "artist": "Tracy Chapman", 
+    "scale": "D",
+    "embedded": "spotify:track:2DjWsDGgL1xNbhnr7f6t5F" 
+},
+{
+    "id": 86,
+    "title": "Numb/Encore",
+    "artist": "Linkin Park & Jay-Z",
+    "scale": "D",
+    "embedded": "spotify:track:5sNESr6pQfIhL3krM8CtZn"
+},
+{
+    "id": 87,
+    "title": "Bette Davis Eyes",
+    "artist": "Kim Carnes",
+    "scale": "D",
+    "embedded": "spotify:track:0odIT9B9BvOCnXfS0e4lB5" 
+},
+{
+    "id": 88,
+    "title": "Wake Me Up",
+    "artist": "Avicii",
+    "scale": "D",
+    "embedded": "spotify:track:0nrRP2bk19rLc0orkWPQk2"  
+}, 
+{
+    "id": 89,
+    "title": "It Ain't Me",
+    "artist": "Kygo & Selena Gomez",
+    "scale": "D",
+    "embedded": "spotify:track:3eR23VReFzcdmS7TYCrhCe" 
+},
+{
+    "id": 90,
+    "title": "Firestone",
+    "artist": "Kygo & Conrad Sewell",
+    "scale": "D",
+    "embedded": "spotify:track:1I8tHoNBFTuoJAlh4hfVVE" 
+},
+{
+    "id": 91,
+    "title": "Echame La Culpa",
+    "artist": "Luis Fonsi & Demi Lovato",
+    "scale": "D",
+    "embedded": "spotify:track:0mlAOSILGRys2IbvyOT5VJ" 
+},
+{
+    "id": 92,
+    "title": "These Days",
+    "artist": "Rudimental & Jess Glynne",
+    "scale": "D",
+    "embedded": "spotify:track:20ZP3Om9DvDazXrNUC7WM2"
+},
+{
+    "id": 93,
+    "title": "Stay With Me",
+    "artist": "Sam Smith",
+    "scale": "D",
+    "embedded": "spotify:track:2whoe0pPKh4JRn6eWSIqTV"
+},
+{
+    "id": 94,
+    "title": "Love Someone",
+    "artist": "Lukas Graham",
+    "scale": "D",
+    "embedded": "spotify:track:3id2EVGKc3eFAMn9nFnB0r" 
+},
+{
+    "id": 95,
+    "title": "Dont Let Me Down",
+    "artist": "The Chainsmokers & Daya",
+    "scale": "D",
+    "embedded": "spotify:track:1i1fxkWeaMmKEB4T7zqbzK"
+},
+{
+    "id": 96,
+    "title": "Lean On",
+    "artist": "Major Lazer & DJ Snake",
+    "scale": "D",
+    "embedded": "spotify:track:2YWjW3wwQIBLNhxWKBQd16"
+},
+{
+    "id": 97,
+    "title": "Treat You Better",
+    "artist": "Shawn Mendes",
+    "scale": "D",
+    "embedded": "spotify:track:3QGsuHI8jO1Rx4JWLUh9jd" 
+},
+{
+    "id": 98,
+    "title": "Senorita",
+    "artist": "Shawn Mendes & Camila Cabello",
+    "scale": "D",
+    "embedded": "spotify:track:0TK2YIli7K1leLovkQiNik"
+},
+{
+    "id": 99,
+    "title": "Havana",
+    "artist": "Camila Cabello",
+    "scale": "D",
+    "embedded": "spotify:track:1rfofaqEpACxVEHIZBJe6W" 
+},
+{
+    "id": 100,
+    "title": "Shallow",
+    "artist": "Lady Gaga & Bradley Cooper",
+    "scale": "D",
+    "embedded": "spotify:track:2VxeLyX666F8uXCJ0dZF8B" 
+}
+]
+}
