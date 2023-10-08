@@ -10,13 +10,13 @@
         IFrameAPI = get(SpotifyStore).IFrameAPI;
         if (EmbedController && IFrameAPI) {
             EmbedController.loadUri(songUrl);
-        } else if (!EmbedController) {
+        } else if (!EmbedController && IFrameAPI) {
             console.log("EmbedController is not defined");
             const options = {
                 uri: songUrl,
             };
-            const callback = (EmbedControllerIns) => {
-                EmbedController = EmbedControllerIns;
+            const callback = (EmbeddedCtrl) => {
+                EmbedController = EmbeddedCtrl;
             };
             IFrameAPI.createController(songContainer, options, callback);
         } else {
@@ -44,3 +44,15 @@
 </script>
 
 <div bind:this={songContainer} />
+
+<!-- Add this to prevent cheating and maybe delay time if slow internet
+
+    EmbedController.addListener('playback_update', e => {
+    document.getElementById('progressTimestamp').innerText = `${parseInt(e.data.position / 1000, 10)} s`;
+    }); 
+
+EmbedController.addListener('ready', () => {
+  console.log('The Embed has initialized');
+  });
+
+-->

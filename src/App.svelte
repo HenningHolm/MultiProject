@@ -7,8 +7,6 @@
     import SpectoFinal from "./Projects/SpectoFinal/SpectoFinal.svelte";
     import Tuner from "./Projects/Tuner/Tuner.svelte";
     import RythmMaker from "./Projects/RythmMaker/RythmMaker.svelte";
-    import Spotify from "./Projects/Spotify/Spotify.svelte";
-    import SpotifyAdv from "./Projects/Spotify/SpotifyAdv.svelte";
     import FindTheKey from "./Projects/Spotify/FindTheKey.svelte";
 
   let currentPage = "FindTheKey";
@@ -24,7 +22,6 @@
    <button on:click={() => currentPage = "BasicThree"}>BasicThree</button>
    <button on:click={() => currentPage = "Tuner"}>Tuner</button>
    <button on:click={() => currentPage = "RythmMaker"}>Rythm Maker</button>
-    <button on:click={() => currentPage = "Spotify"}>Spotify</button>
     <button on:click={() => currentPage = "FindTheKey"}>FindTheKey</button>
 
   </nav>
@@ -44,8 +41,6 @@
   <BasicThree/>
   {:else if currentPage === "RythmMaker"}
   <RythmMaker/>
-  {:else if currentPage === "Spotify"}
-  <Spotify/>
   {:else if currentPage === "FindTheKey"}
   <FindTheKey/>
   {:else}

@@ -3,7 +3,6 @@
     import MusicPlayer from './MusicPlayer.svelte';
     import * as songsCollection from "./songsArray.json"
     import type { FindKeySong } from './FindTheKeyDependencies';
-    import { start } from 'tone';
     // import MusicPlayer from './MusicPlayer.svelte'; // Husk å opprette denne filen
     
     let time = 0;
@@ -13,21 +12,21 @@
     let started = false;
     let countdown : any = 3;
     let startButtonPressed = false;
-    let listOfSongs: FindKeySong[] = songsCollection.dictonary;
-    let currentSong : FindKeySong = listOfSongs[9];
-    let currentSongIndex = 90;
+    let listOfSongs: FindKeySong[] = getRandomSongs(songsCollection.dictonary, 10);
+    let currentSong : FindKeySong = listOfSongs[0];
+    let currentSongIndex = 0;
     let progress = -1;
     let MusicComponent;
     let clockId;
     onDestroy(() => {
       clearInterval(clockId);
-      console.log("destroyed find the key");
+      console.log("destroyed FindTheKey");
     })
 
     function guessKey(scaleGuess: string){
       console.log("currentSong.scale", currentSong.scale)
       if(scaleGuess === currentSong.scale){
-        if(progress === 100){
+        if(progress === 10){
           clearInterval(clockId);
           progress = -1;
           startButtonPressed = false;
@@ -55,6 +54,7 @@
         console.log("clockId not defined");
       }
       progress++;
+      console.log("currentSongIndex", currentSongIndex)
       currentSong = listOfSongs[currentSongIndex];
       MusicComponent.loadSong(currentSong.embedded);
       countdown = 3;
@@ -84,6 +84,12 @@
       }, 10);
     }
 
+    function getRandomSongs(songs: FindKeySong[], count: number): FindKeySong[] {
+      const shuffled = songs.sort(() => 0.5 - Math.random());
+      return shuffled.slice(0, count);
+    }
+
+
 
     function checkQuickness(quickness: number){
       guessQuestionTime = quickness
@@ -108,7 +114,6 @@
     <button>Back</button>
     {/if}
     <div>
-      
       <span>Time: {time.toFixed(2)}</span>
       {#if started}
       <span>Song: {progress+1}/10</span>
@@ -128,13 +133,10 @@
         <button on:click={()=>guessKey(key)}>{key}</button>
       {/each}
     </div>
-    {#if countdown === 3}
-      <!-- <MusicPlayer bind:this={MusicComponent} bind:update={updateChild}/> -->
-    {/if}
     <div class:hidden={!started}><MusicPlayer bind:this={MusicComponent}/></div>
   </main>
   <style>
-    /* Tilpass stiler her etter dine behov */
+
     main {
       text-align: center;
     }
